@@ -63,10 +63,10 @@ def main():
 	if selection == "Exploratory Data Analysis(EDA)":
 		st.info("See the EDA for climate Change tweets")
 		# You can read a markdown file from supporting resources folder
-		st.markdown("Some information here")
+		st.markdown("Some EDA here")
 
-		st.subheader("Raw Twitter data and label")
-		if st.checkbox('Show raw data'): # data is hidden if box is unchecked
+		st.subheader("EDA for Climate Change")
+		if st.checkbox('Show EDA'): # data is hidden if box is unchecked
 			st.write(raw[['sentiment', 'message']]) # will write the df to the page
 
 	# Building out the predication page
